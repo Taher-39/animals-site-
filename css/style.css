@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+h1,h2,h3,h4,h5,h6,p,a,span,input{
+    font-family: 'Poppins', sans-serif;
+}
+/* header section style */
+/* .row>* {
+  
+     padding-right: 0; 
+     padding-left: 0; 
+} */
+header{
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+.nav-link{
+    font-size: 20px;
+    color: white !important;
+}
+.nav-item{
+    margin: 0px 32px;
+}
+.form-control {
+    padding: .450rem .75rem !important;
+    color: white !important;
+    background-color: #fcc302 !important;
+    border: 1px solid #fcc302 !important;
+    border-radius: none !important; 
+}
+.input-group-text {
+   
+    padding: .375rem 1.25rem !important;
+    color: white !important;
+    background-color: #00bec9 !important; 
+    border-radius: none !important;
+}
+
+
+
+/* banner section style */
+.banner, .service-2{
+    width: 100%;
+    background-color: #fcc302;
+    padding: 120px 0px;
+}
+.banner h1{
+    font-size: 67px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 64px;
+}
+.service-1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    margin-top: 64px;
+}
+.banner p, .service-1 p{
+    font-size: 30px;
+    margin: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.service-1 p{
+    color: black;
+}
+.banner .btn-info{
+    color: #fff;
+    background-color: #00bec9 !important;
+    border-color: #00bec9 !important;
+}
+
+/* service-1 style */
+.service-1{
+    width: 100%;
+    background-color: white;
+    padding: 120px 0px;
+
+}
+.service-video{
+    position: relative;
+    z-index: 1;
+}
+.service-video .shadow, .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(252, 195, 2, 0.7);
+}
+.box{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #fcc302;
+    bottom: -30px;
+    left: -30px;
+    z-index: -1;
+}
+.video-icon{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    color: yellow;
+    background: white;
+    text-align: center;
+    line-height: 70px;
+    left: 45%;
+    bottom: 40%; 
+    border-radius: 50%;
+
+}
+
+/* service-2 */
+.service-2{
+    margin-bottom: 30px;
+}
+.service-2 .header{
+     text-align: center;
+}
+.header h1{
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+.service-2 .header p{
+    color: white;
+    padding: 15px 0px;
+}
+.fotter .row .col-md-4 h2{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.fotter .row .col-md-4 p{
+    color: white;
+    text-align: center;
+}
+/* service-3 */
+.service-3 .box{
+     position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #fcc302;
+    bottom: -30px;
+    right: -30px;
+    z-index: -1;
+}
+
+/* service4 */
+.buy-part{
+    text-align: center;
+    padding: 15px 0px;
+}
+.buy-part .rate {
+    color: white;
+}
+.buy-part .rate rate-pv{
+    margin: 0px 50px;
+
+}
+/* service-5 style */
+ .service-5, .service-6{
+     background-color: white !important;
+ } 
+ .service-5 .header h1,p,h2{
+     color: black !important;
+     color: #313243 !important;
+ }
+
+/* client history */
+.history{
+    width: 100%;
+    background-image: url(../imgs/grp7-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    padding: 120px 0px;
+
+    position: relative;
+}
+
+.history .row{
+    text-align: center;
+    padding: 180px 0px;
+}
+.history .col-md-4 i{
+    font-size: 72px;
+    color: white;
+}
+.history .col-md-4 h2{
+    font-size: 42px;
+}
+.history .col-md-4 h3{
+    font-size: 38px;
+}
+
+/* service-6 */
+.service-6 h1{
+    color: #313243;
+}
+.service-6 .extra-color{
+
+    color: #00bec9 !important;
+}
+
+/* Footer Section */
+.footer{
+    background-color: #313243;
+
+}
+.footer h3{
+    color: white;
+    margin: 20px 0;
+    padding-top: 30px;
+}
+
+.footer p{
+    color: white !important;
+}
+
+
+
+
